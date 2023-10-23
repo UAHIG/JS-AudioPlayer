@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="'IE=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>AudioPlayer</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="warpper-designed">
+      <div class="player">
+        <div class="title">UAHIG</div>
+        <div class="cover"><img class="cover__img" src="./assets/myImg1.png" alt="cover"></div>
+        <div class="song">Brooclin and thr</div>
+        <audio class="audio" src="./audio/Alexandrjfk - Catch You (Original Mix).mp3"></audio>
+        <div class="progress__container">
+          <div class="progress"></div>
+        </div>
+        <div class="track-time">
+          <div class="time-left">0:00</div>
+          <div class="time-right">2:55</div>
+        </div>
+        <div class="volume__container">
+          <div class="volume-picture">
+            <img class="volume-img" src="./assets/soundOn.png" alt="SoundOn">
+          </div>
+          <div class="volume-level">
+            <input type="range" min="0" max="100" value="50" class="slider">
+          </div>
+        </div>
+        <div class="buttons">
+          <div class="btn prev"><img src="./assets/prev.png" alt="prev"></div>
+          <div class="btn play"><img class="img__src" src="./assets/play.png" alt="play"></div>
+          <div class="btn next"><img src="./assets/next.png" alt="next"></div>
+        </div>
+          <div class="footer-container">
+            <div class="footer-line"></div>
+            <div>
+              <a class="adn-link rs" href="https://rs.school/" target="_blank">
+                <img class="rsimg" src="./assets/rs_school_js.svg" alt="The Rolling Scopes School">
+              </a>
+            </div>
+            <div class="footer-rss">
+              <p>
+                <a class="adn-link" href="https://github.com/UAHIG" target="_blank">Igor Golosnyy</a>
+              </p>
+              <p>2023</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
