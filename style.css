@@ -242,3 +242,41 @@ text-decoration: underline;
   height: 90%;
 }
 
+@media screen and (max-width: 768px) {
+
+  .player {
+    max-width: 90%;
+  }
+
+}
+
+
+@media screen and (max-width: 268px) {
+
+  .volume__container {
+    flex-direction: column;
+  }
+  .song {
+    font-size: 12px;
+    line-height: 12px;
+  } 
+  .footer-rss {
+    font-size: 8px;
+    margin: 0px;
+  }
+
+ .warpper-designed {
+  max-width: 100%;
+ }
+}
+
+@media screen and (max-width: 468px) {
+
+  .btn.play img {
+    width: 100%;
+  }
+  .btn.prev img, .btn.next img {
+    width: 100%; 
+  }
+}
+
