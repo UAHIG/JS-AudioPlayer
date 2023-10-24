@@ -39,14 +39,14 @@ loadSong(songs[songIndex]);
 function playSong() {
   player.classList.add('play')
   cover.classList.add('active')
-  imgPausePlay.src = './assets/play.png'
+  imgPausePlay.src = './assets/pause.png'
   audio.play()
 }
 //pouse
 function pauseSong() {
   player.classList.remove('play')
   cover.classList.remove('active')
-  imgPausePlay.src = './assets/pause.png'
+  imgPausePlay.src = './assets/play.png'
   audio.pause()
 }
 
