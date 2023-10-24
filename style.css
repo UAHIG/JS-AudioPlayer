@@ -118,7 +118,7 @@
 }
 
 .btn.play img {
-  width: 40%; 
+  max-width: 100px;
 }
 .btn.prev img,
 .btn.next img {
@@ -239,7 +239,7 @@ text-decoration: underline;
 }
 
 .rsimg {
-  height: 90%;
+  height: 30px;
 }
 
 @media screen and (max-width: 768px) {
